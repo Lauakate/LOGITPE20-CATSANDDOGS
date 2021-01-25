@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xoJU5Y5GhanAndj6HHkT9yAIKIMx/i32COujFasIAdkz92LFsXm2lAUPkBhhPhWjs5LeznH3ft4oE3YyRbBfzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\CatAndDogs\\CatAndDogs\\CatAndDogs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\opilane\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
