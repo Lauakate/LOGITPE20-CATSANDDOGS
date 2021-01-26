@@ -30,7 +30,10 @@
         {
             this.pictureDog = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureCat = new System.Windows.Forms.PictureBox();
+            this.buttonCat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureDog)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCat)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureDog
@@ -52,16 +55,38 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // pictureCat
+            // 
+            this.pictureCat.Location = new System.Drawing.Point(119, 149);
+            this.pictureCat.Name = "pictureCat";
+            this.pictureCat.Size = new System.Drawing.Size(370, 413);
+            this.pictureCat.TabIndex = 2;
+            this.pictureCat.TabStop = false;
+            this.pictureCat.Click += new System.EventHandler(this.pictureCat_Click);
+            // 
+            // buttonCat
+            // 
+            this.buttonCat.Location = new System.Drawing.Point(119, 605);
+            this.buttonCat.Name = "buttonCat";
+            this.buttonCat.Size = new System.Drawing.Size(370, 69);
+            this.buttonCat.TabIndex = 3;
+            this.buttonCat.Text = "Get Cat Image";
+            this.buttonCat.UseVisualStyleBackColor = true;
+            this.buttonCat.Click += new System.EventHandler(this.buttonCat_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1162, 774);
+            this.Controls.Add(this.buttonCat);
+            this.Controls.Add(this.pictureCat);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureDog);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureDog)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCat)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -70,6 +95,8 @@
 
         private System.Windows.Forms.PictureBox pictureDog;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureCat;
+        private System.Windows.Forms.Button buttonCat;
     }
 }
 

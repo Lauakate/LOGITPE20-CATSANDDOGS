@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\CatAndDogs\\CatAndDogs\\CatAndDogs.csproj": {}
+    "C:\\Users\\opilane\\source\\repos\\LOGITPE20-CATSANDDOGS\\CatAndDogs\\CatAndDogs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\CatAndDogs\\CatAndDogs\\CatAndDogs.csproj": {
+    "C:\\Users\\opilane\\source\\repos\\LOGITPE20-CATSANDDOGS\\CatAndDogs\\CatAndDogs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\CatAndDogs\\CatAndDogs\\CatAndDogs.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\LOGITPE20-CATSANDDOGS\\CatAndDogs\\CatAndDogs.csproj",
         "projectName": "CatAndDogs",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\CatAndDogs\\CatAndDogs\\CatAndDogs.csproj",
+        "projectPath": "C:\\Users\\opilane\\source\\repos\\LOGITPE20-CATSANDDOGS\\CatAndDogs\\CatAndDogs.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\CatAndDogs\\CatAndDogs\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\source\\repos\\LOGITPE20-CATSANDDOGS\\CatAndDogs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -43,6 +43,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
